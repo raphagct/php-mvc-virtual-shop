@@ -1,12 +1,18 @@
 Site E-commerce
 
+
+
 Description
+
 
 Ce projet de site marchand a été développé en PHP (sans framework) suivant une architecture MVC. Ce site est conçu pour vendre des formations en ligne, avec une gestion complète des articles, des commandes, des utilisateurs, et de l'administration. 
 
+
 Fonctionnalités principales
 
+
 Zone publique
+
 
 Présentation des formations
 
@@ -18,13 +24,18 @@ Gestion du panier : modification des quantités, suppression des articles.
 
 Finalisation de la commande avec collecte des informations client (nom, prénom, email).
 
+
 Commandes
+
 
 Enregistrement des commandes dans une table "facturation".
 
 Affichage d'un accusé de réception à l'écran après la commande.
 
+
+
 Zone d'administration
+
 
 Gestion des tables
 
@@ -44,6 +55,8 @@ Suivi des ventes, chiffre d'affaires, et bénéfices ou déficits.
 
 Rapport des ventes et achats sur une période définie.
 
+
+
 Technologies utilisées
 
 Langage : PHP (sans framework)
@@ -51,6 +64,8 @@ Langage : PHP (sans framework)
 Base de données : PhpMyAdmin
 
 Scripts client : HTML, CSS, JavaScript 
+
+
 
 Auteur
 

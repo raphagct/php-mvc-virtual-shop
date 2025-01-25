@@ -1,0 +1,175 @@
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.prix-positif {
+    color: green;
+    font-weight: bold;
+}
+
+.prix-négatif {
+    color: red;
+    font-weight: bold;
+}
+
+
+.bilan-compta {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+section h2, section h3 {
+    color: #333;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+}
+
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form textarea,
+form select {
+    padding: 6px 10px;
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.bouton-ajout{
+    padding: 8px 16px;
+    background-color: #00e300;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-ajout:hover {
+    background-color: #005100;
+}
+
+.bouton-supprimer {
+    padding: 8px 16px;
+    background-color: #c60000;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-supprimer:hover {
+    background-color: #610000;
+}
+
+.bouton-A-Jour{
+    padding: 8px 16px;
+    background-color: #00aae1;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bouton-A-Jour:hover {
+    background-color: #005c63;
+}
+
+h5 {
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Style des champs spécifiques */
+form input[type="number"] {
+    width: 50%;
+}
+
+/* Style des sélecteurs */
+form select {
+    padding: 6px 10px; /* Ajuste les champs select pour les rendre plus serrés */
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour les formulaires vides ou les titres */
+form .empty-form {
+    display: none;
+}
+
+/* Styles pour les bordures des sections */
+form hr {
+    margin-top: 30px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Style des messages d'alerte */
+form button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+

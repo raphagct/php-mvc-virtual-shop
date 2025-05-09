@@ -1,72 +1,59 @@
-Site E-commerce
+# PHP-MVC-Virtual-Shop
 
+## Description
 
+Ce projet est un site marchand développé en **PHP** (sans framework) suivant une architecture **MVC**. Il est conçu dans le cadre de me études, il consiste à vendre des formations factices en ligne et propose une gestion complète des articles, des commandes, des utilisateurs, ainsi qu'une interface d'administration.
 
-Description
+---
 
+## Fonctionnalités principales
 
-Ce projet de site marchand a été développé en PHP (sans framework) suivant une architecture MVC. Ce site est conçu pour vendre des formations en ligne, avec une gestion complète des articles, des commandes, des utilisateurs, et de l'administration. 
+### Zone publique
 
+- **Présentation des formations** :
+  - Affichage des formations disponibles avec description, prix, et image.
+  - Options de filtrage et pagination pour une navigation optimisée.
+- **Gestion du panier** :
+  - Ajout des formations au panier.
+  - Modification des quantités et suppression des articles.
+- **Finalisation de la commande** :
+  - Collecte des informations client (nom, prénom, email).
+  - Affichage d'un accusé de réception après la commande.
 
-Fonctionnalités principales
+### Commandes
 
+- Enregistrement des commandes dans une table `facturation`.
+- Affichage d'un accusé de réception à l'écran après validation.
 
-Zone publique
+### Zone d'administration
 
+- **Gestion des tables** :
+  - Administration des tables : clients, produits, fournisseurs.
+  - Ajout, suppression, et recherche d'éléments dans les tables.
+- **Gestion des produits** :
+  - Gestion des stocks avec visibilité des produits épuisés (non commandables).
+  - Alertes de seuil critique pour avertir le webmaster.
+- **Comptabilité** :
+  - Suivi des ventes, chiffre d'affaires, et bénéfices ou déficits.
+  - Génération de rapports des ventes et achats sur une période définie.
 
-Présentation des formations
+---
 
-Affichage des formations disponibles avec description, prix, et image, le tout avec des options de filtrage et une pagination.
+## Technologies utilisées
 
-Ajout des formations dans un panier.
+- **Langage** : PHP (sans framework)
+- **Base de données** : PhpMyAdmin(MySQL)
 
-Gestion du panier : modification des quantités, suppression des articles.
+---
 
-Finalisation de la commande avec collecte des informations client (nom, prénom, email).
+## Auteur
 
+raphagct
 
-Commandes
+---
 
+## Installation
 
-Enregistrement des commandes dans une table "facturation".
-
-Affichage d'un accusé de réception à l'écran après la commande.
-
-
-
-Zone d'administration
-
-
-Gestion des tables
-
-Administration des tables : clients, produits, fournisseurs.
-
-Ajout, suppression, et recherche d'éléments dans les tables.
-
-Gestion des produits
-
-Gestion des stocks : visibilité des produits épuisés sans possibilité de commande.
-
-Alertes de seuil critique pour avertir le webmaster.
-
-Comptabilité
-
-Suivi des ventes, chiffre d'affaires, et bénéfices ou déficits.
-
-Rapport des ventes et achats sur une période définie.
-
-
-
-Technologies utilisées
-
-Langage : PHP (sans framework)
-
-Base de données : PhpMyAdmin
-
-Scripts client : HTML, CSS, JavaScript 
-
-
-
-Auteur
-
-Raphaël Guichet
+1. Clonez ce dépôt sur votre machine locale :
+   ```bash
+   git clone https://github.com/votre-utilisateur/votre-repo.git
